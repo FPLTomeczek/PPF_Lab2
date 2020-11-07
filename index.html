@@ -2,91 +2,103 @@
 <html lang="zxx">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style/style.css" type="text/css"/>
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
     <title>PPF_Lab2</title>
   </head>
   <body>
     <div>
-      <header>
-          <div>
-              <img src="img/logo.png" width="150" height="75" alt="Brak logo"/>
-          </div>
-          <h1>
-              Projektowanie i programowanie front-end, lab. 2-3
-          </h1>
-      </header>
+      <div class="header_container">
+        <div class="headeritem_logo">
+          <img src="img/logo.png" width="150" height="75" alt="Brak logo" />
+        </div>
+        <div class="headeritem_text">
+          <h1>Projektowanie i programowanie front-end, lab.flexbox</h1>
+        </div>
+      </div>
 
-      <section>
-     
-        <nav>
-            <ul>
-                <li><a href="https://www.pk.edu.pl" target="_blank">Politechnika</a></li>
-                <li><a href="https://agh.edu.pl" target="_blank">AGH</a></li>
-                <li><a href="info.html" target="_self">Informacje</a></li>
-                <li><a href="#animals">Zwierzęta</a></li>
-                <li>
-                    <a href="https://www.youtube.com/watch?v=MhhAox6Zei8" target="_blank">Film</a>
-                </li>
-                <li><a href="#movie">Film lokalny</a></li>
-            </ul>
-        </nav>
+      <div class="main_container">
+        <div class="mainitem_nav">
+          <ul>
+            <li>
+              <a href="https://www.pk.edu.pl" target="_blank">Politechnika</a>
+            </li>
+            <li><a href="https://agh.edu.pl" target="_blank">AGH</a></li>
+            <li><a href="info.html" target="_self">Informacje</a></li>
+            <li><a href="#animals">Zwierzęta</a></li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=MhhAox6Zei8"
+                target="_blank"
+                >Film</a
+              >
+            </li>
+            <li><a href="#movie">Film lokalny</a></li>
+          </ul>
+        </div>
 
-        <article>
-
+        <div class="mainitem_art">
           <div>
             <h2 id="animals">Kilka zwierząt żyjących na naszej planecie</h2>
           </div>
 
-          <div>
-            <img src="img/img-01.png" alt="Img 01" width="320" height="200"/>
-          </div>
-          <div>
-            <p>
-              Żaba wodna dorasta do 9cm długości ciała. Tak samo jak w przypadku
-              innych płazów bezogonowych, samiec jest mniejszy od samicy. Podczas
-              godów samce przybierają lekko żółtawy odcień, podobnie jak żaba jeziorkowa.<br/>
-            </p>
-          </div>
-
-          <div>
-            <img src="img/img-02.png" alt="Img 02" width="320" height="200"/>
-          </div>
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quia fugiat 
-              voluptas inventore quod ea, temporibus dolorum natus, esse dolore amet
-              aliquam iusto rem cum? Ea qui expedita odio similique?<br/>
-            </p>
+          <div class="item_art">
+            <div class="item_art_img">
+              <img src="img/img-01.png" alt="Img 01" width="320" height="200" />
+            </div>
+            <div class="item_art_text">
+              <p>
+                Żaba wodna dorasta do 9cm długości ciała. Tak samo jak w
+                przypadku innych płazów bezogonowych, samiec jest mniejszy od
+                samicy. Podczas godów samce przybierają lekko żółtawy odcień,
+                podobnie jak żaba jeziorkowa.<br />
+              </p>
+            </div>
           </div>
 
-          <div>
-            <img src="img/img-03.png" alt="Img 03" width="320" height="200"/>
+          <div class="item_art">
+            <div class="item_art_img">
+              <img src="img/img-02.png" alt="Img 02" width="320" height="200" />
+            </div>
+            <div class="item_art_text">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                quia fugiat voluptas inventore quod ea, temporibus dolorum
+                natus, esse dolore amet aliquam iusto rem cum? Ea qui expedita
+                odio similique?<br />
+              </p>
+            </div>
           </div>
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quia fugiat 
-              voluptas inventore quod ea, temporibus dolorum natus, esse dolore amet
-              aliquam iusto rem cum? Ea qui expedita odio similique?<br/>
-            </p>
+
+          <div class="item_art">
+            <div class="item_art_img">
+              <img src="img/img-03.png" alt="Img 03" width="320" height="200" />
+            </div>
+            <div class="item_art_text">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                quia fugiat voluptas inventore quod ea, temporibus dolorum
+                natus, esse dolore amet aliquam iusto rem cum? Ea qui expedita
+                odio similique?<br />
+              </p>
+            </div>
           </div>
-        </article>
 
           <div>
             <h2 id="movie">Krótki film o zwierzętach afrykańskich</h2>
             <video width="512" controls>
-              <source src="img/movie.mp4" type="video/mp4"/>
+              <source src="img/movie.mp4" type="video/mp4" />
               Przeglądarka nie obsługuje video HTML.
             </video>
           </div>
-        
-      </section>
+        </div>
+      </div>
 
-      <footer>
-        <p>
-            Autor: <b>Tomasz Skrzypiński</b>. Politechnika Krakowska, Wydział
-            Mechaniczny, Instytut Informatyki Stosowanej M-07
-        </p>
-      </footer>
+      <div class="main_footer">
+        <h4>
+          Autor: <b>Tomasz Skrzypiński</b>. Politechnika Krakowska, Wydział
+          Mechaniczny, Instytut Informatyki Stosowanej M-07
+        </h4>
+      </div>
     </div>
   </body>
 </html>
